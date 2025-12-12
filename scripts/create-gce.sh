@@ -9,7 +9,7 @@ BUCKET_NAME=gevulot-custom-vm-images
 #BUCKET_NAME="${BUCKET_NAME:-nixos-cloud-images}"
 TIMESTAMP="$(date +%Y%m%d%H%M)"
 export TIMESTAMP
-export NIXOS_LABEL="25-11-${TIMESTAMP}"
+export NIXOS_LABEL="25-11"
 
 nix-build '<nixpkgs/nixos/lib/eval-config.nix>' \
    -A config.system.build.googleComputeImage \

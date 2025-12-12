@@ -1,0 +1,1 @@
+gcloud --project gevulot-infrastructure compute instances create brian-test1 --image nixos-image-google-compute-26-05-linux --subnet infrastructure --zone europe-west4-b --metadata "enable-oslogin=TRUE" --tags ssh --boot-disk-size 200GB
