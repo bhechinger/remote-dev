@@ -1,3 +1,4 @@
+{ lib, ...}:
 {
   security.sudo.wheelNeedsPassword = false;
   security.pam.services.sshd.googleOsLoginAccountVerification = lib.mkForce false;
