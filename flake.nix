@@ -19,7 +19,7 @@
     in
     {
       nixosConfigurations = {
-        remove-dev = lib.nixosSystem {
+        remote-dev = lib.nixosSystem {
           inherit system;
 
           modules = [
