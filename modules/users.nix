@@ -1,5 +1,6 @@
 {
   security.sudo.wheelNeedsPassword = false;
+  security.pam.services.sshd.googleOsLoginAccountVerification = lib.mkForce false;
   users.users.wonko = {
     initialPassword = "password";
     isNormalUser = true;
