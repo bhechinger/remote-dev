@@ -30,10 +30,6 @@
 
   services = {
     openssh.enable = true;
-    containers.policy = {
-      enable = true;
-      policy = pkgs.containers.policy.default; # Or pkgs.containers.policy.signed
-    };
   };
   system.stateVersion = "25.11";
 }
