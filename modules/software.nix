@@ -6,7 +6,6 @@
       git
       inetutils
       vim
-      kitty-terminfo
     ];
   };
 
